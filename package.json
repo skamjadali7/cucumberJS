@@ -1,5 +1,27 @@
 {
-    "cypress-cucumber-preprocessor": {
-        "nonGlobalStepDefinitions": true
-    }
+  "name": "cucumberjs",
+  "description": "cucumber with Cypress and JavaScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skamjadali7/cucumberJS.git"
+  },
+  "author": "amjad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skamjadali7/cucumberJS/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "homepage": "https://github.com/skamjadali7/cucumberJS#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  }
 }
