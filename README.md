@@ -1,5 +1,5 @@
 # cucumberJS
-cucumber with Cypress and JavaScript
+cucumber with Cypress and JavaScript for automating shopping application
 
 Pre-Requisites:
 - init npm 
@@ -25,5 +25,4 @@ module.exports = (on, config) => {
     "testFiles": "**/*.feature"
 }
 
-
-Author Name : AMJAD ALI
+Name : @mj@d

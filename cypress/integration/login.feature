@@ -1,5 +1,8 @@
-Feature: Login to Para Bank Application
+Feature: Login to Shopping Bank Application
 
-    Scenario: Login Page
-    Given Customer navigate to bank application
-    When  Customer successfully logged in to bank application
+    Scenario: Successfull Login to Shopping Application
+    Given Customer navigate to shopping application
+    When Customer click on sign-in button
+    And Customer enters email and password
+        | email        | password |
+        | sam@mail.com | sam@123  |
