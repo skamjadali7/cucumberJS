@@ -17,4 +17,16 @@ And('Customer enters email and password',(datatable) =>{
         cy.get('#email').type(element.email);
         cy.get('#passwd').type(element.password);
     });
+
+Then('Click Sign-In Button',() =>{
+    cy.get('#SubmitLogin').click();
+    let error = cy.get('#create_account_error').should('be.visible');
+    if(error!=true){
+        cy.url().should('contain','controller=my-account');
+    }
+    else {
+        //cy.get('.alert.alert-danger').should('be.visible');
+        cy.get('#create_account_error').should('be.visible');
+    }
+})
 })
