@@ -21,7 +21,7 @@
   "homepage": "https://github.com/skamjadali7/cucumberJS#readme",
   "devDependencies": {
     "@cucumber/cucumber": "^8.0.0-rc.1",
-    "cypress": "^9.0.0",
+    "cypress": "^9.5.4",
     "cypress-cucumber-preprocessor": "^4.3.0"
   }
 }
